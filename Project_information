@@ -1,0 +1,6 @@
+Pada project ini adalah bagian aplikasi medpoint berbasis "Web backend" yang diakses oleh admin superadmin dan dokter
+dan bertujuan untuk proses management reservasi, user, role user secara online. 
+
+teknologi yang digunakan :
+# React Framework
+# Language Golang
