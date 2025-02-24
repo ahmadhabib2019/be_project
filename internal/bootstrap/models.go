@@ -2,10 +2,21 @@
 package bootstrap
 
 import (
+	"backendproject/internal/models"
 	"github.com/sev-2/raiden/pkg/resource"
 )
 
 func RegisterModels() {
 	resource.RegisterModels(
+		&models.Doctors{},
+		&models.Faskes{},
+		&models.Permissions{},
+		&models.Poli{},
+		&models.ReservationLogs{},
+		&models.RolePermissions{},
+		&models.Roles{},
+		&models.Schedules{},
+		&models.Specialties{},
+		&models.UserRoles{},
 	)
 }
